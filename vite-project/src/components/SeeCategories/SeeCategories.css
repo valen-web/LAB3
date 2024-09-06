@@ -1,0 +1,54 @@
+img{
+    width: 5rem;
+    margin-right: 2vw;
+}
+
+#category-item{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-self: center;
+    margin-top: 2vw;
+border-radius: 20px;
+margin-right: 40vw;
+}
+
+.category{
+    -webkit-box-shadow: 2px 10px 39px -10px rgba(0,0,0,0.3);
+    -moz-box-shadow: 2px 10px 39px -10px rgba(0,0,0,0.3);
+    box-shadow: 2px 10px 39px -10px rgba(0,0,0,0.3);
+    margin-left: 15vw;
+    width: 60vw;
+    border-radius: 20px;
+    padding: 3vw;
+    margin-top: 3vw;
+    margin-bottom: 3vw;
+}
+
+
+
+h2{
+    font-family: "Poppins", sans-serif;
+    color: rgb(72, 72, 72);
+    margin-right: 20vw;
+}
+
+p{
+    font-family: "Poppins", sans-serif;
+    color: rgb(48, 48, 48);
+}
+
+#catecoriName{
+    font-family: "Poppins", sans-serif;
+    color: rgb(125, 125, 125);
+    margin-left: 0px;
+}
+
+#price{
+    display: flex;;
+    justify-content: right;
+   margin-top: -5vw;
+   margin-right: 0px;
+   margin-bottom: 5vw;
+}
