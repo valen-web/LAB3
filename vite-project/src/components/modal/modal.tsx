@@ -25,8 +25,8 @@ function Modal({ onClose, onSave }: ModalProps) {
   }, []);
 
   const handleSave = () => {
-    onSave({ name, amount: parseFloat(amount), category, date }); // Guardar los datos
-    onClose(); // Cerrar el modal
+    onSave({ name, amount: parseFloat(amount), category, date }); 
+    onClose();
   };
 
   return (
