@@ -2,7 +2,7 @@ import './ProgresBar.css';
 import { CircularProgressbar } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 
-// Define las props que recibe el componente Bar
+
 interface BarProps {
   budget: number;
 }
