@@ -4,12 +4,12 @@ import Modal from '../modal/modal.tsx';
 import "./planerScreen.css";
 import { useState } from 'react'
 
-// Define las props que recibe el componente Planer
+
 interface PlanerProps {
   budget: number;
 }
 
-function Planer({ budget }: PlanerProps) { // Tipar la prop `budget`
+function Planer({ budget }: PlanerProps) { 
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   const handleOpenModal = () => {
@@ -22,7 +22,7 @@ function Planer({ budget }: PlanerProps) { // Tipar la prop `budget`
 
   return (
     <>
-      <Bar budget={budget} /> {/* Pasar el presupuesto a Bar */}
+      <Bar budget={budget} /> 
       <div id='more-button'>
         <button onClick={handleOpenModal}>+</button>
       </div>
