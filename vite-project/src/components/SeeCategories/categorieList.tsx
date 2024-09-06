@@ -3,7 +3,7 @@ import Categories from "../../data/data";
 import SeeCategories from "./SeeCategories";
 
 function CategoriesList({ selectedCategory }) {
-  // Filtrar las categorías según la categoría seleccionada
+ 
   const filteredCategories = selectedCategory
     ? { [selectedCategory]: Categories[selectedCategory] }
     : Categories;
