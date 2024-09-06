@@ -6,14 +6,13 @@ import Nav from './components/nav/nav';
 
 function App() {
   const [showPlaner, setShowPlaner] = useState(false);
-  const [budget, setBudget] = useState(0); // Estado para el presupuesto
-
+  const [budget, setBudget] = useState(0); 
   const handleShowPlaner = () => {
     setShowPlaner(true);
   };
 
   const handleSetBudget = (value) => {
-    setBudget(value); // Actualiza el presupuesto
+    setBudget(value); 
   };
 
   return (
