@@ -1,12 +1,12 @@
 import { useState } from "react";
 import "./define.css";
 
-function Define({ onGoClick, onBudgetChange }) { // Agregar la prop onBudgetChange
+function Define({ onGoClick, onBudgetChange }) {
   const [inputValue, setInputValue] = useState("");
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
-    onBudgetChange(event.target.value); // Pasar el valor del input al componente principal
+    onBudgetChange(event.target.value); 
   };
 
   return (
